@@ -65,7 +65,7 @@ First create a new conda environment
 - Train the diffusion model on the MVTec-AD dataset: 
 ```
 $ python -m torch.distributed.launch --nproc_per_node=2  train_diffusion.py --dataset MVTec-AD 
-
+```
 ## 4. Strength-controllable Diffusion Anomaly Synthesis
 
 Sample anomaly images using `1*RTX3090 GPU`:  
