@@ -1,0 +1,12 @@
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name candle
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name capsules
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name cashew
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name chewinggum
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name fryum
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name macaroni1
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name macaroni2
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name pcb1
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name pcb2
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name pcb3
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name pcb4
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset VisA --class_name pipe_fryum

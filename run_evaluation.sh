@@ -1,0 +1,15 @@
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name bottle
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name cable
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name capsule
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name carpet
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name grid
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name hazelnut
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name leather
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name metal_nut
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name pill
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name screw
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name tile
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name toothbrush
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name transistor
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name wood
+python  evaluation_fsdnet.py --dataset MVTec-AD --class_name zipper

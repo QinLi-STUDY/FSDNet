@@ -1,0 +1,15 @@
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name bottle
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name cable
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name capsule
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name carpet
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name grid
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name hazelnut
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name leather
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name metal_nut
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name pill
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name screw
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name tile
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name toothbrush
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name transistor
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name wood
+python -m torch.distributed.launch --nproc_per_node=1  train_fsdnet.py --dataset MVTec-AD --class_name zipper
